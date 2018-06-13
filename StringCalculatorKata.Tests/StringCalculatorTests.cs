@@ -6,6 +6,32 @@ namespace StringCalculatorKata.Tests
     [TestFixture]
     public class StringCalculatorTests
     {
+        [Test]
+        public void Add_GivenEmptyString_ShouldReturn0()
+        {
+            //-----------Arrange------------
+            var numbers = "";
+            var expected = 0;
+            //------------Act--------------
+            var sut = CreateStringCalculator();
+            var actual = sut.Add(numbers);
+            //-----------Assert------------
+            Assert.AreEqual(expected, actual);
+        }
+
+        [Test]
+        public void Add_GivenWhitespace_ShouldReturn0()
+        {
+            //-----------Arrange------------
+            var numbers = " ";
+            var expected = 0;
+            //------------Act--------------
+            var sut = CreateStringCalculator();
+            var actual = sut.Add(numbers);
+            //-----------Assert------------
+            Assert.AreEqual(expected, actual);
+        }
+
         [TestCase("0", 0, 0)]
         [TestCase("1", 1, 1)]
         [TestCase("2", 2, 2)]

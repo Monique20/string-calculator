@@ -7,12 +7,16 @@ namespace StringCalculatorKata
     public class StringCalculator
     {
         public int Add(string numbers)
-        {   
-            var listOfNumbers = AddNumbers(numbers);
+        {
+            if (string.IsNullOrEmpty(numbers) || string.IsNullOrWhiteSpace(numbers))
+            {
+                return 0;
+            }
+            var listOfNumbers = AddNumbersToList(numbers);
             return listOfNumbers.Sum();
         }
 
-        private static List<int> AddNumbers(string numbers)
+        private static List<int> AddNumbersToList(string numbers)
         {
             var splitNumbers = SplitNumbers(numbers);
             var listOfNumbers = new List<int>();
