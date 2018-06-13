@@ -10,3 +10,9 @@ C:\Users\moniqueg\Desktop\StringCalculatorKata\StringCalculatorKata\obj\Debug\St
 C:\Users\moniqueg\Desktop\StringCalculatorKata\StringCalculatorKata\obj\Debug\StringCalculatorKata.dll
 C:\Users\moniqueg\Desktop\StringCalculatorKata\StringCalculatorKata\obj\Debug\StringCalculatorKata.pdb
 C:\Users\moniqueg\Desktop\StringCalculatorKata\StringCalculatorKata\obj\Debug\StringCalculatorKata.csprojAssemblyReference.cache
+C:\Users\moniqueg\Katas\string-calculator\StringCalculatorKata\bin\Debug\StringCalculatorKata.dll
+C:\Users\moniqueg\Katas\string-calculator\StringCalculatorKata\bin\Debug\StringCalculatorKata.pdb
+C:\Users\moniqueg\Katas\string-calculator\StringCalculatorKata\obj\Debug\StringCalculatorKata.csprojAssemblyReference.cache
+C:\Users\moniqueg\Katas\string-calculator\StringCalculatorKata\obj\Debug\StringCalculatorKata.csproj.CoreCompileInputs.cache
+C:\Users\moniqueg\Katas\string-calculator\StringCalculatorKata\obj\Debug\StringCalculatorKata.dll
+C:\Users\moniqueg\Katas\string-calculator\StringCalculatorKata\obj\Debug\StringCalculatorKata.pdb

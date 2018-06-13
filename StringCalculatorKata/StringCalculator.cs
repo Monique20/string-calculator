@@ -56,7 +56,7 @@ namespace StringCalculatorKata
 
         private static string[] SplitNumbers(string numbers)
         {
-          return numbers.Split(new[] {",", "\n", "/", ";", "*", "[", "]", "%" }, StringSplitOptions.RemoveEmptyEntries);
+          return numbers.Split(new[] {",", "\n", "/", ";", "*", "[", "]", "%", "#", "&", "(", ")", "!" }, StringSplitOptions.RemoveEmptyEntries);
         }
     }
 }

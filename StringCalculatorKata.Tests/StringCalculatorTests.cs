@@ -76,6 +76,7 @@ namespace StringCalculatorKata.Tests
         [TestCase("//[***]\n1***2***3" , 6, 6)]
         [TestCase("//[*][%]\n1*2%3", 6, 6)]
         [TestCase("//[****]***[%%%%%%%%%%]23\n1*2%3", 29, 29)]
+        [TestCase("//[%*][&!][(##)]\n3%*6&!11(##)22", 42, 42)]
         public void Add_GivenMultipleTokensAndMultipleNumbers_ShouldReturnTheSumOfThoseNumbers(string numbers, int expected, int actual)
         {
             //-----------Arrange------------
