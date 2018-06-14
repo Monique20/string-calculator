@@ -128,6 +128,19 @@ namespace StringCalculatorKata.Tests
             Assert.AreEqual(expected, actual);
         }
 
+        [Test]
+        public void Add_GivenNumbersGreaterThan1000AndTokens_ShouldIgnoreThoseNumbers()
+        {
+            //-----------Arrange------------
+            var numbers = "2,1001,1003,*#%";
+            var expected = 2;
+            //------------Act--------------
+            var sut = CreateStringCalculator();
+            var actual = sut.Add(numbers);
+            //-----------Assert------------
+            Assert.AreEqual(expected, actual);
+        }
+
         private static StringCalculator CreateStringCalculator()
         {
             var sut = new StringCalculator();
